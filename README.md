@@ -33,7 +33,7 @@ git clone https://github.com/shacostapabley/performance-landscapes-text-classifi
 cd performance-landscapes-text-classification
 pip install -r requirements.txt
 streamlit run app/app.py
-
+```
 
 ## Repository Structure
 
