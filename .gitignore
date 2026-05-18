@@ -1,0 +1,28 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+*.tmp
+*.temp
+*.log
+
+.venv/
+venv/
+env/
+
+.DS_Store
+Thumbs.db
+
+# Large raw data files. Keep data/README.md and processed outputs tracked.
+data/raw/
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# Local/generated experiment artifacts.
+fake_news_title_only_logistic_results.csv
+surface_plots/
+Figures/
+
+# Streamlit local secrets/config.
+.streamlit/secrets.toml

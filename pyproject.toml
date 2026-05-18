@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "performance-landscapes"
+version = "0.1.0"
+description = "Reusable code for text-classification performance landscape analysis."
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "scikit-learn",
+    "scipy",
+    "plotly",
+    "streamlit",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
