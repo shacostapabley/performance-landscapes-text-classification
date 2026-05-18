@@ -7,7 +7,7 @@ data/raw/Fake.csv
 data/raw/True.csv
 ```
 
-The original dataset can be downloaded from Kaggle. This project uses the common fake-and-real news dataset with separate `Fake.csv` and `True.csv` files.
+The original dataset can be downloaded from Kaggle at https://www.kaggle.com/datasets/emineyetm/fake-news-detection-datasets. This project uses fake-and-real news dataset with separate `Fake.csv` and `True.csv` files.
 
 The notebooks expect those raw files locally for EDA and model-grid reruns. The saved experiment results used by the visualization notebooks and future app are stored in:
 
