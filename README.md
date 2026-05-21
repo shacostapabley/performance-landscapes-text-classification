@@ -34,6 +34,7 @@ cd performance-landscapes-text-classification
 pip install -r requirements.txt
 streamlit run app/app.py
 ```
+Alternatively, the app can be viewed at performancelandscapes.streamlit.app.
 
 ## Repository Structure
 
